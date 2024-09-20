@@ -253,7 +253,7 @@ a:hover {
     /*apparently using just color doesn't work, gotta use bOrDeR cOLoR 🧐 -> https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element 
     Bernado answered: Some html elements don't work with some CSS properties. COLOR IS JUST FOR TEXT WHILE OTHER ELEMENTS USING BORDER (*insert emoji typing shocked reaction*/
   }
-  .another-line {
+  /*another-line {
     border-color: #004adb;
     margin-top: 100px;
   }
@@ -276,7 +276,7 @@ a:hover {
     cursor: pointer;
     /*houver worked outside 👍*/
   }
-  .about h2 {
+  /*bout h2 {
     color: #004adb;
     font-size: 50px;
     font-weight: bold;
@@ -293,7 +293,7 @@ a:hover {
     /*Grid references: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
     https://www.youtube.com/watch?v=EaWj2AWI5Es*/
     /*add spacing to columns education and occupation*/
-    display: grid;
+    /*isplay: grid;
     grid-auto-flow: column;
   }
   .experience h3,
@@ -335,4 +335,4 @@ a:hover {
     color: #004adb;
     font-size: 20px;
     font-weight: medium;
-    margin-top:
+    margin-top:*/
