@@ -175,7 +175,58 @@ a:hover {
 
 /*Responsive part, aka trauma 9please don't ask me what i did*/
 
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 28px;
+  }
+  
+  .header h2 {
+      font-size: 18px;
+  }
+  
+  .summary > div {
+      flex: 1 1 100%;
+  }
+  
+  .about h2 {
+      font-size: 24px;
+  }
+  
+  .contacts a {
+      font-size: 14px;
+  }
+
+  .image {
+      width: 80%;
+      max-width: 200px;
+      margin: 10px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+      font-size: 24px;
+  }
+  
+  .header h2 {
+      font-size: 16px;
+  }
+  
+  .about h2 {
+      font-size: 20px;
+  }
+  
+  .summary {
+      flex-direction: column;
+      flex: 1 1 100%;
+  }
+  
+  .contacts {
+      padding: 10px;
+  }
+}
+/*@media (max-width: 600px) {
   body {
     background-color: red;
   }
@@ -285,6 +336,4 @@ a:hover {
     font-size: 20px;
     font-weight: medium;
     margin-top: 20px;
-    line-height: 10px;
-  }
-}
+    line-height: 10px;*/
